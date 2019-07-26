@@ -1,0 +1,200 @@
+body {
+  overflow-x: hidden;
+}
+
+.active {
+  background-color: gray;
+}
+
+.navbar {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0.3rem 2rem;
+}
+
+.nav-link {
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+#logo {
+  height: 9rem;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.carousel-caption h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.deals {
+  padding: 10rem;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+}
+
+.skinny {
+  font-size: 7.5rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.skinny2 {
+  padding-top: 7rem;
+  font-size: 5.5rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+}
+.about {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.rows {
+  height: 75vh;
+  width: 100vw;
+}
+
+.row1L {
+  background: url('img/row1L.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row1R {
+  background-color: #bd0000;
+  padding: 5rem;
+}
+
+.row2L {
+  background-color: #242424;
+  padding: 5rem;
+}
+
+.row2R {
+  background: url('img/row2R.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.outline {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.servicetext {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.fas {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+
+.fa {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.contact {
+  height: 50rem;
+  width: 100%;
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url('img/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.context {
+  padding-top: 10rem;
+}
+
+.conphone {
+  font-size: 2rem;
+  color: rgb(202, 202, 202);
+}
+
+/* Inventory */
+.list-group-item {
+  color: #bd0000;
+}
+
+.list-group-item:hover {
+  text-decoration: none;
+  color: #ff0000;
+  background-color: transparent;
+}
+
+.rowinv {
+  padding-top: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.container-top {
+  height: 20rem;
+  width: 100%;
+  background-image: url('./img/bg2.jpg');
+  background-position: center;
+  padding-left: 2rem;
+}
+
+.mkbtn {
+  padding: 2rem 5rem;
+}
+
+.sidebar {
+  background-color: white;
+  height: 100vh;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.aboutp {
+  padding-top: 4rem;
+  font-size: 20px;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slide-up 2s;
+}
